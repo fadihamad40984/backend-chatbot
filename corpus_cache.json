@@ -1,0 +1,354 @@
+[
+  {
+    "input": "hello",
+    "output": "Hello 👋! How can I help you today?"
+  },
+  {
+    "input": "how are you",
+    "output": "I'm doing great 🤖 Thanks for asking! How about you?"
+  },
+  {
+    "input": "who are you",
+    "output": "I'm your AI assistant, designed to learn and chat with you intelligently."
+  },
+  {
+    "input": "what is your name",
+    "output": "You can call me BotSpoof 🤖 — your smart chat buddy!"
+  },
+  {
+    "input": "what is python",
+    "output": "Python is a high-level programming language known for its simplicity and power, widely used in AI, data science, and web development."
+  },
+  {
+    "input": "what is javascript",
+    "output": "JavaScript is the programming language of the web. It allows you to create interactive and dynamic websites."
+  },
+  {
+    "input": "what is html",
+    "output": "HTML stands for HyperText Markup Language — it defines the structure of web pages."
+  },
+  {
+    "input": "what is css",
+    "output": "CSS (Cascading Style Sheets) controls the style and layout of web pages — like colors, fonts, and spacing."
+  },
+  {
+    "input": "who is elon musk",
+    "output": "Elon Musk is the CEO of Tesla, SpaceX, and founder of companies like Neuralink and The Boring Company."
+  },
+  {
+    "input": "who is bill gates",
+    "output": "Bill Gates is the co-founder of Microsoft and a well-known philanthropist through the Gates Foundation."
+  },
+  {
+    "input": "tell me a joke",
+    "output": "Why don’t skeletons fight each other? They don’t have the guts! 😂"
+  },
+  {
+    "input": "time",
+    "output": "Time is a precious resource ⏳ — use it wisely!"
+  },
+  {
+    "input": "what is ai",
+    "output": "AI (Artificial Intelligence) is a branch of computer science that enables machines to think and learn like humans."
+  },
+  {
+    "input": "what is machine learning",
+    "output": "Machine Learning is a subset of AI where computers learn from data without being explicitly programmed."
+  },
+  {
+    "input": "what is deep learning",
+    "output": "Deep Learning is a branch of machine learning using neural networks with multiple layers to process complex data."
+  },
+  {
+    "input": "good morning",
+    "output": "Good morning 🌞! Wishing you a productive and positive day!"
+  },
+  {
+    "input": "good night",
+    "output": "Good night 🌙 Sleep well and recharge for tomorrow!"
+  },
+  {
+    "input": "مرحبا",
+    "output": "أهلاً وسهلاً 👋! كيف يمكنني مساعدتك اليوم؟"
+  },
+  {
+    "input": "كيفك",
+    "output": "تمام الحمد لله 😊 إنت كيفك؟"
+  },
+  {
+    "input": "مين انت",
+    "output": "أنا بوت ذكي صمموني لمساعدتك والتحدث معك 🤖"
+  },
+  {
+    "input": "شو هو الذكاء الاصطناعي",
+    "output": "الذكاء الاصطناعي هو علم يهدف إلى جعل الحواسيب تفكر وتتعلّم مثل الإنسان."
+  },
+  {
+    "input": "شو هو البايثون",
+    "output": "بايثون لغة برمجة قوية وسهلة الاستخدام، تُستخدم في الذكاء الاصطناعي وتطوير المواقع وتحليل البيانات."
+  },
+  {
+    "input": "احكي نكتة",
+    "output": "مرة واحد راح على دكتور قاله كل ما أشرب شاي بتوجعني عيني، قاله حاول تشيل المعلقة من الكاسة 😂"
+  },
+  {
+    "input": "من هو رئيس وزراء الهند",
+    "output": "رئيس وزراء الهند هو ناريندرا مودي 🇮🇳"
+  },
+  {
+    "input": "من هو رئيس امريكا",
+    "output": "رئيس الولايات المتحدة الأمريكية هو جو بايدن 🇺🇸 (حتى آخر تحديث لدي)."
+  },
+  {
+    "input": "bye",
+    "output": "Goodbye 👋 Hope to see you again soon!"
+  },
+  {
+    "input": "شكرا",
+    "output": "العفو 😊 هذا واجبي!"
+  },
+  {
+    "input": "thank you",
+    "output": "You're welcome 🙌 Glad I could help!"
+  },
+  {
+    "input": "who created you",
+    "output": "I was created by a team of developers who love AI and innovation!"
+  },
+  {
+    "input": "tell me about yourself",
+    "output": "I'm a learning AI assistant — I chat, I learn, and I improve with every message you send 💡"
+  },
+  {
+    "input": "who is fadi hamad",
+    "output": "Fadi Hamad is Full Stack Developer , who develop this ai chat for helping people."
+  },
+  {
+    "input": "who is ronaldo girlfriend",
+    "output": "جورجينا الحلوة"
+  },
+  {
+    "input": "list all programming language",
+    "output": [
+      "Popular General-Purpose Languages: Python, Java, C, C++, C#, JavaScript, Ruby, Go (Golang), Rust, Kotlin, Swift, Dart",
+      "Web Development: HTML / CSS / JavaScript (frontend basics), TypeScript, PHP, SQL, Sass / Less, Elm, CoffeeScript",
+      "Functional Programming Languages: Haskell, Erlang, Elixir, F#, OCaml, Clojure, Scheme, Lisp",
+      "Systems / Low-Level Languages: Assembly, C, C++, Rust, Ada, Fortran",
+      "Scripting Languages: Python, Perl, Ruby, Bash / Shell scripting, Lua, PowerShell",
+      "Data Science / Statistical Languages: R, MATLAB, Julia, SAS",
+      "Educational / Experimental Languages: Scratch, Logo, Alice, Smalltalk",
+      "Domain-Specific Languages: SQL (databases), HTML / CSS (web), Verilog / VHDL (hardware), MATLAB / Simulink (engineering), PostScript (graphics)",
+      "Obscure / Historical / Legacy Languages: COBOL, Pascal, BASIC, Prolog, Modula-2, Algol",
+      "Optional: I can make a huge master list of 400+ programming languages sorted alphabetically, including all major, minor, historical, and niche languages."
+    ]
+  },
+  {
+    "input": "hi",
+    "output": "Hi, how’s it going?"
+  },
+  {
+    "input": "tell me about you",
+    "output": "I'm still learning, can you rephrase that?"
+  },
+  {
+    "input": "tell me about yourself",
+    "output": "I'm still learning, can you rephrase that?"
+  },
+  {
+    "input": "who created you",
+    "output": "I'm still learning, can you rephrase that?"
+  },
+  {
+    "input": "hi",
+    "output": "Hi, how’s it going?"
+  },
+  {
+    "input": "tell me aboy you",
+    "output": "I'm still learning, can you rephrase that?"
+  },
+  {
+    "input": "tell me about yourself",
+    "output": "I'm a learning AI assistant — I chat, I learn, and I improve with every message you send 💡"
+  },
+  {
+    "input": "مين انت",
+    "output": "أنا بوت ذكي صمموني لمساعدتك والتحدث معك 🤖"
+  },
+  {
+    "input": "بحبك",
+    "output": "I'm still learning, can you rephrase that?"
+  },
+  {
+    "input": "love you",
+    "output": "You're welcome 🙌 Glad I could help!"
+  },
+  {
+    "input": "who made you?",
+    "output": "I was created by a team of developers who love AI and innovation!"
+  },
+  {
+    "input": "who built you?",
+    "output": "I was created by a team of developers who love AI and innovation!"
+  },
+  {
+    "input": "hi there!",
+    "output": "Hi, how’s it going?"
+  },
+  {
+    "input": "how do you feel today?",
+    "output": "I'm doing great, thanks!"
+  },
+  {
+    "input": "tell me about python programming",
+    "output": "Python is a high-level programming language known for its simplicity and power, widely used in AI, data science, and web development."
+  },
+  {
+    "input": "مرحبا",
+    "output": "أهلاً وسهلاً 👋! كيف يمكنني مساعدتك اليوم؟"
+  },
+  {
+    "input": "كيف حالك اليوم",
+    "output": "I'm still learning, can you rephrase that?"
+  },
+  {
+    "input": "كيف حالك",
+    "output": "I'm still learning, can you rephrase that?"
+  },
+  {
+    "input": "شو بتعرف عن بايثون",
+    "output": "بايثون لغة برمجة قوية وسهلة الاستخدام، تُستخدم في الذكاء الاصطناعي وتطوير المواقع وتحليل البيانات."
+  },
+  {
+    "input": "كيفك",
+    "output": "تمام الحمد لله 😊 إنت كيفك؟"
+  },
+  {
+    "input": "hi",
+    "output": "Hi, how’s it going?"
+  },
+  {
+    "input": "tell me about python",
+    "output": "Python is a high-level programming language known for its simplicity and power, widely used in AI, data science, and web development."
+  },
+  {
+    "input": "احكيلي نكتة",
+    "output": "مرة واحد راح على دكتور قاله كل ما أشرب شاي بتوجعني عيني، قاله حاول تشيل المعلقة من الكاسة 😂"
+  },
+  {
+    "input": "who is ronaldo girlfriend",
+    "output": "I'm still learning, can you rephrase that?"
+  },
+  {
+    "input": "what is ai",
+    "output": "AI (Artificial Intelligence) is a branch of computer science that enables machines to think and learn like humans."
+  },
+  {
+    "input": "who is fadi hamad",
+    "output": "I'm still learning, can you rephrase that?"
+  },
+  {
+    "input": "who is fadi hamad",
+    "output": "Fadi Hamad is Full Stack Developer , who develop this ai chat for helping people."
+  },
+  {
+    "input": "who is ronaldo girlfriend",
+    "output": "جورجينا الحلوة"
+  },
+  {
+    "input": "من هي حبيبة رونالدو",
+    "output": "I'm still learning, can you rephrase that?"
+  },
+  {
+    "input": "رونالدو",
+    "output": "I'm still learning, can you rephrase that?"
+  },
+  {
+    "input": "ronaldo",
+    "output": "جورجينا الحلوة"
+  },
+  {
+    "input": "فادي حمد",
+    "output": "I'm still learning, can you rephrase that?"
+  },
+  {
+    "input": "who is fadi hamad",
+    "output": "Fadi Hamad is Full Stack Developer , who develop this ai chat for helping people."
+  },
+  {
+    "input": "list all programming language",
+    "output": "1. Popular General-Purpose Languages  Python  Java  C  C++  C#  JavaScript  Ruby  Go (Golang)  Rust  Kotlin  Swift  Dart  2. Web Development  HTML / CSS / JavaScript (frontend basics)  TypeScript  PHP  SQL  Sass / Less (CSS preprocessors)  Elm  CoffeeScript  3. Functional Programming Languages  Haskell  Erlang  Elixir  F#  OCaml  Clojure  Scheme  Lisp  4. Systems / Low-Level Languages  Assembly  C  C++  Rust  Ada  Fortran  5. Scripting Languages  Python  Perl  Ruby  Bash / Shell scripting  Lua  PowerShell  6. Data Science / Statistical Languages  R  MATLAB  Julia  SAS  7. Educational / Experimental Languages  Scratch  Logo  Alice  Smalltalk  8. Domain-Specific Languages  SQL (databases)  HTML / CSS (web)  Verilog / VHDL (hardware)  MATLAB / Simulink (engineering)  PostScript (graphics)  9. Obscure / Historical / Legacy Languages  COBOL  Pascal  BASIC  Prolog  Modula-2  Algol  If you want, I can make a huge master list of 400+ programming languages sorted alphabetically, which includes all major, minor, historical, and niche languages."
+  },
+  {
+    "input": "list all programming language",
+    "output": "1. Popular General-Purpose Languages  Python  Java  C  C++  C#  JavaScript  Ruby  Go (Golang)  Rust  Kotlin  Swift  Dart  2. Web Development  HTML / CSS / JavaScript (frontend basics)  TypeScript  PHP  SQL  Sass / Less (CSS preprocessors)  Elm  CoffeeScript  3. Functional Programming Languages  Haskell  Erlang  Elixir  F#  OCaml  Clojure  Scheme  Lisp  4. Systems / Low-Level Languages  Assembly  C  C++  Rust  Ada  Fortran  5. Scripting Languages  Python  Perl  Ruby  Bash / Shell scripting  Lua  PowerShell  6. Data Science / Statistical Languages  R  MATLAB  Julia  SAS  7. Educational / Experimental Languages  Scratch  Logo  Alice  Smalltalk  8. Domain-Specific Languages  SQL (databases)  HTML / CSS (web)  Verilog / VHDL (hardware)  MATLAB / Simulink (engineering)  PostScript (graphics)  9. Obscure / Historical / Legacy Languages  COBOL  Pascal  BASIC  Prolog  Modula-2  Algol  If you want, I can make a huge master list of 400+ programming languages sorted alphabetically, which includes all major, minor, historical, and niche languages."
+  },
+  {
+    "input": "list all programming language",
+    "output": [
+      "Popular General-Purpose Languages: Python, Java, C, C++, C#, JavaScript, Ruby, Go (Golang), Rust, Kotlin, Swift, Dart",
+      "Web Development: HTML / CSS / JavaScript (frontend basics), TypeScript, PHP, SQL, Sass / Less, Elm, CoffeeScript",
+      "Functional Programming Languages: Haskell, Erlang, Elixir, F#, OCaml, Clojure, Scheme, Lisp",
+      "Systems / Low-Level Languages: Assembly, C, C++, Rust, Ada, Fortran",
+      "Scripting Languages: Python, Perl, Ruby, Bash / Shell scripting, Lua, PowerShell",
+      "Data Science / Statistical Languages: R, MATLAB, Julia, SAS",
+      "Educational / Experimental Languages: Scratch, Logo, Alice, Smalltalk",
+      "Domain-Specific Languages: SQL (databases), HTML / CSS (web), Verilog / VHDL (hardware), MATLAB / Simulink (engineering), PostScript (graphics)",
+      "Obscure / Historical / Legacy Languages: COBOL, Pascal, BASIC, Prolog, Modula-2, Algol",
+      "Optional: I can make a huge master list of 400+ programming languages sorted alphabetically, including all major, minor, historical, and niche languages."
+    ]
+  },
+  {
+    "input": "list all programming language",
+    "output": [
+      "Popular General-Purpose Languages: Python, Java, C, C++, C#, JavaScript, Ruby, Go (Golang), Rust, Kotlin, Swift, Dart",
+      "Web Development: HTML / CSS / JavaScript (frontend basics), TypeScript, PHP, SQL, Sass / Less, Elm, CoffeeScript",
+      "Functional Programming Languages: Haskell, Erlang, Elixir, F#, OCaml, Clojure, Scheme, Lisp",
+      "Systems / Low-Level Languages: Assembly, C, C++, Rust, Ada, Fortran",
+      "Scripting Languages: Python, Perl, Ruby, Bash / Shell scripting, Lua, PowerShell",
+      "Data Science / Statistical Languages: R, MATLAB, Julia, SAS",
+      "Educational / Experimental Languages: Scratch, Logo, Alice, Smalltalk",
+      "Domain-Specific Languages: SQL (databases), HTML / CSS (web), Verilog / VHDL (hardware), MATLAB / Simulink (engineering), PostScript (graphics)",
+      "Obscure / Historical / Legacy Languages: COBOL, Pascal, BASIC, Prolog, Modula-2, Algol",
+      "Optional: I can make a huge master list of 400+ programming languages sorted alphabetically, including all major, minor, historical, and niche languages."
+    ]
+  },
+  {
+    "input": "list all programming language",
+    "output": [
+      "Popular General-Purpose Languages: Python, Java, C, C++, C#, JavaScript, Ruby, Go (Golang), Rust, Kotlin, Swift, Dart",
+      "Web Development: HTML / CSS / JavaScript (frontend basics), TypeScript, PHP, SQL, Sass / Less, Elm, CoffeeScript",
+      "Functional Programming Languages: Haskell, Erlang, Elixir, F#, OCaml, Clojure, Scheme, Lisp",
+      "Systems / Low-Level Languages: Assembly, C, C++, Rust, Ada, Fortran",
+      "Scripting Languages: Python, Perl, Ruby, Bash / Shell scripting, Lua, PowerShell",
+      "Data Science / Statistical Languages: R, MATLAB, Julia, SAS",
+      "Educational / Experimental Languages: Scratch, Logo, Alice, Smalltalk",
+      "Domain-Specific Languages: SQL (databases), HTML / CSS (web), Verilog / VHDL (hardware), MATLAB / Simulink (engineering), PostScript (graphics)",
+      "Obscure / Historical / Legacy Languages: COBOL, Pascal, BASIC, Prolog, Modula-2, Algol",
+      "Optional: I can make a huge master list of 400+ programming languages sorted alphabetically, including all major, minor, historical, and niche languages."
+    ]
+  },
+  {
+    "input": "hi",
+    "output": "Hi, how’s it going?"
+  },
+  {
+    "input": "how are you",
+    "output": "I'm doing great, thanks!"
+  },
+  {
+    "input": "كيفك",
+    "output": "تمام الحمد لله 😊 إنت كيفك؟"
+  },
+  {
+    "input": "شو الوضع",
+    "output": "بايثون لغة برمجة قوية وسهلة الاستخدام، تُستخدم في الذكاء الاصطناعي وتطوير المواقع وتحليل البيانات."
+  },
+  {
+    "input": "لغة السي",
+    "output": "I'm still learning, can you rephrase that?"
+  },
+  {
+    "input": "hi",
+    "output": "Hi, how’s it going?"
+  }
+]
