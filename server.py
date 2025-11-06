@@ -110,6 +110,10 @@ def get_training_data():
     data = load_training_data()
     return jsonify({"data": data})
 
+@app.route("/")
+def index():
+    return "Hello! API is live."
+
 
 
 if __name__ == "__main__":
