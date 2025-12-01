@@ -141,6 +141,13 @@
       "Obscure / Historical / Legacy Languages: COBOL, Pascal, BASIC, Prolog, Modula-2, Algol",
       "Optional: I can make a huge master list of 400+ programming languages sorted alphabetically, including all major, minor, historical, and niche languages."
     ]
+  },
+  {
+    "input": "What is our company mission?",
+    "output": "Our mission is to democratize AI and make it accessible to everyone."
+  },
+  {
+    "input": "Test question 1764588768",
+    "output": "Test answer"
   }
-  
 ]
