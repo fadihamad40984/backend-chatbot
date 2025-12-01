@@ -19,12 +19,12 @@ MODELS = {
     #   - "paraphrase-MiniLM-L3-v2" (smaller, faster, less accurate)
     "semantic_model": "all-MiniLM-L6-v2",
     
-    # QA model - change to a smaller/larger model as needed
+    # QA model - Use TinyRoBERTa for lower memory usage on Render
     # Options:
+    #   - "deepset/tinyroberta-squad2" (smallest, low memory)
     #   - "deepset/roberta-base-squad2" (default)
     #   - "distilbert-base-cased-distilled-squad" (smaller, faster)
-    #   - "deepset/bert-large-uncased-whole-word-masking-squad2" (larger, better)
-    "qa_model": "deepset/roberta-base-squad2"
+    "qa_model": "deepset/tinyroberta-squad2"
 }
 
 # Source Configuration

@@ -202,21 +202,35 @@ ENABLE_STACKOVERFLOW = True
 
 ## Performance
 
-- **Knowledge Base**: 1400+ pre-indexed documents
-- **Search Speed**: ~100ms on GPU, ~500ms on CPU
-- **QA Inference**: ~200ms on GPU, ~2s on CPU
-- **Memory Usage**: ~2GB with models loaded
+- **Knowledge Base**: Dynamically loaded
+- **Search Speed**: ~500ms on CPU
+- **QA Inference**: ~2-3s on CPU (TinyRoBERTa)
+- **Memory Usage**: ~400MB optimized for Render free tier
 
 ## Deployment
 
-### Render
+### Render (Optimized for Free Tier)
 
-1. Create a new Web Service on [Render](https://render.com)
-2. Connect your GitHub repository
-3. Configure:
+1. **Create Web Service** on [Render](https://render.com)
+2. **Connect GitHub** repository: `fadihamad40984/backend-chatbot`
+3. **Configure Settings**:
+   - **Name**: ai-chatbot (or your choice)
+   - **Region**: Choose closest to your users
+   - **Branch**: main
+   - **Runtime**: Python 3
    - **Build Command**: `pip install -r requirements.txt`
-   - **Start Command**: `python server.py`
-   - **Environment**: Python 3.11
+   - **Start Command**: `gunicorn --bind 0.0.0.0:$PORT --workers 1 --threads 2 --timeout 120 server:app`
+   
+4. **Environment Variables**:
+   - Add `RENDER=true` (enables production mode)
+   - Optional: Add `PORT=10000` (Render sets this automatically)
+
+5. **Important Notes**:
+   - Uses **CPU-only** PyTorch (no CUDA)
+   - Uses **TinyRoBERTa** model (low memory)
+   - **Lazy loading** enabled (models load on first request)
+   - First request may take 30-60 seconds (model download)
+   - Subsequent requests are fast (~2-3 seconds)
 
 ### Docker
 

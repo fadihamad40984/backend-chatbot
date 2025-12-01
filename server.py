@@ -260,14 +260,20 @@ def index():
 if __name__ == "__main__":
     # Initialize and train the model on startup
     print("Starting AI Chatbot Server...")
-    print("Initializing knowledge base...")
     
-    try:
-        train_and_persist()
-    except Exception as e:
-        print(f"Error during initialization: {e}")
-        print("Server will start anyway. Knowledge base can be built via /train endpoint.")
+    # Check if running on Render (production)
+    is_production = os.environ.get("RENDER") == "true"
+    
+    if not is_production:
+        print("Initializing knowledge base...")
+        try:
+            train_and_persist()
+        except Exception as e:
+            print(f"Error during initialization: {e}")
+            print("Server will start anyway. Knowledge base can be built via /train endpoint.")
+    else:
+        print("Production mode: Lazy loading enabled (knowledge base will load on first request)")
     
     port = int(os.environ.get("PORT", 5000))
     print(f"Server starting on port {port}...")
-    app.run(host="0.0.0.0", port=port, debug=True)
+    app.run(host="0.0.0.0", port=port, debug=False)

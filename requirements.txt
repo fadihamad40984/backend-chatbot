@@ -2,8 +2,9 @@
 Flask==3.1.0
 flask-cors==6.0.0
 requests==2.32.3
+gunicorn==23.0.0
 
-# AI/ML Libraries
+# AI/ML Libraries (CPU-only for lower memory)
 sentence-transformers==2.3.1
 transformers==4.36.0
 torch==2.7.0

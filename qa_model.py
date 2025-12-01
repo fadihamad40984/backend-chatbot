@@ -16,7 +16,7 @@ class QAModel:
     Question Answering model wrapper using HuggingFace transformers
     """
     
-    def __init__(self, model_name: str = "deepset/roberta-base-squad2"):
+    def __init__(self, model_name: str = "deepset/tinyroberta-squad2"):
         """
         Initialize QA model
         
@@ -26,20 +26,28 @@ class QAModel:
         print(f"Loading QA model: {model_name}")
         
         try:
-            # Load model and tokenizer
+            # Force CPU with low memory settings
+            import os
+            self.device = "cpu"
+            print(f"Device set to CPU (low memory mode)")
+            
+            # Load model and tokenizer with low memory usage
             self.model_name = model_name
             self.tokenizer = AutoTokenizer.from_pretrained(model_name)
-            self.model = AutoModelForQuestionAnswering.from_pretrained(model_name)
+            self.model = AutoModelForQuestionAnswering.from_pretrained(
+                model_name,
+                low_cpu_mem_usage=True
+            )
             
-            # Create pipeline
+            # Create pipeline with CPU-only
             self.qa_pipeline = pipeline(
                 "question-answering",
                 model=self.model,
                 tokenizer=self.tokenizer,
-                device=0 if torch.cuda.is_available() else -1
+                device=-1  # Force CPU
             )
             
-            print(f"QA model loaded successfully on {'GPU' if torch.cuda.is_available() else 'CPU'}")
+            print(f"QA model loaded successfully on CPU (low memory mode)")
         except Exception as e:
             print(f"Error loading QA model: {e}")
             raise

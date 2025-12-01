@@ -25,7 +25,11 @@ class SemanticSearchEngine:
             model_name: Name of the sentence transformer model
         """
         print(f"Loading semantic model: {model_name}")
-        self.model = SentenceTransformer(model_name)
+        # Force CPU to reduce memory usage
+        import os
+        self.device = "cpu"
+        self.model = SentenceTransformer(model_name, device=self.device)
+        print(f"Model loaded on CPU (low memory mode)")
         self.documents: List[Dict] = []
         self.embeddings: Optional[np.ndarray] = None
         
